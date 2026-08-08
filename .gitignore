@@ -5,3 +5,16 @@
 tags
 node_modules
 __pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+node_modules/
+*.log
+.DS_Store
+.idea/
+.vscode/

@@ -145,6 +145,16 @@ app_license = "mit"
 # 	}
 # }
 
+# added event for recalculate salvage value in asset
+doc_events = {
+    "Asset Repair": {
+        "on_submit": "asset_recalculation.asset_overrides.recalculate_salvage_value",
+        "on_cancel": "asset_recalculation.asset_overrides.recalculate_salvage_value_on_cancel",
+    }
+}
+
+
+
 # Scheduled Tasks
 # ---------------
 
